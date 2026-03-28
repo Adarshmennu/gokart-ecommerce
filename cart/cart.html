@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="../Home/home.css">
+    <link rel="stylesheet" href="../Home/home2.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo"><a href=""> <strong>G</strong>o<strong>k</strong>art</a></div>
+        <input id="line" type="checkbox">   
+        
+        <div class="home">
+            <a href="../Home/home.html">Home</a> 
+            <a href="">Shop</a> 
+            <a href="">Blog</a> 
+            <a href="">About</a>
+            <a href="">Help</a>
+        </div>
+        <div class="search">
+            <div class="input">
+            <input id="Searchproduct" type="text" placeholder=" Search products" aria-label="Search"  >
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div> 
+        </div>
+        <div class="cart"><a href="../cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+        <label class="hamburger" for="line">
+            <span class="a"></span>
+            <span class="b"></span>
+            <span class="c"></span>
+        </label>
+    </nav>
+    <div id="cartcontainer">
+        <div id="cartcontent"></div>
+        <div id="totalprice"></div>
+    </div>
+
+
+
+    <script src="./cart.js"></script>
+</body>
+</html>

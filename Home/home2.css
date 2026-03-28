@@ -1,0 +1,116 @@
+@media(max-width:700px){
+   
+
+.nav{
+    height: 70px;
+    width: 100%; 
+    background-color: #111827;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+} 
+.logo{
+    /* height: 70px;
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-style: normal; */
+     flex: 1;
+    display: flex;
+    align-items: center;
+     
+} 
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo strong{ 
+    font-style: oblique;
+    font-size: 1.6rem;
+    color: goldenrod; 
+}
+.home{
+    
+    display: none;
+}
+
+ 
+  
+.search{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+.search .input {
+    display: flex;
+    align-items: center;
+    width: 100%;  
+}   
+ 
+.search i{
+     color: gray;
+     
+}
+.search input{
+    flex: 1;
+    width: auto;
+    border: none;
+    outline: none;
+} 
+.cart{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.cart a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.hamburger{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+#line:checked ~ .home{
+    display: flex; 
+}
+#line:checked ~ .hamburger{
+    .a{
+        position: relative;
+        transform: rotate(45deg);
+        top:  5px; 
+    }
+    .b{
+        display: none;
+    }
+    .c{
+        position: relative;
+        transform: rotate(-45deg);
+        top: -5px;
+    }
+}
+.home{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    flex-direction: column;
+    align-items: center; 
+}
+.home a{
+    color: #111827;
+}
+ 
+}
